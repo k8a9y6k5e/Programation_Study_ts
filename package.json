@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "study about typescript",
   "keywords": [
-    "study", "learn", "typescript"
+    "study",
+    "learn",
+    "typescript"
   ],
   "homepage": "https://github.com/k8a9y6k5e/Programation_Study_ts#readme",
   "bugs": {
@@ -15,9 +17,8 @@
   },
   "license": "ISC",
   "author": "kayke",
-  "type": "commonjs",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.9.3"
   }
 }
