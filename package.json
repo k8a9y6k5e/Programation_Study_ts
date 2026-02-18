@@ -19,6 +19,7 @@
   "author": "kayke",
   "type": "module",
   "devDependencies": {
+    "@types/node": "^25.2.3",
     "typescript": "^5.9.3",
     "typescritp": "^1.0.0"
   }
