@@ -18,7 +18,8 @@
   "license": "ISC",
   "author": "kayke",
   "type": "module",
-  "dependencies": {
-    "typescript": "^5.9.3"
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "typescritp": "^1.0.0"
   }
 }
