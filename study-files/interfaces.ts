@@ -1,7 +1,7 @@
 /*
 difference of types and interfaces is:
 types create a new named type based on a existing type or a combination of it
-interfaces describes the structure of objects and classes
+interfaces model the structure of objects and classes
 */
 
 //to create an interface:
