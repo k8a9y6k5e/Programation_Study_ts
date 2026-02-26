@@ -9,6 +9,7 @@ repository to save the study about typescript
 - [x] classes.ts - Study about classes and the modifications of it in ts;
 - [x] combining-types.ts - Study about the form to combine data types in a data;
 - [x] data-types.ts - Study about the basics data types;
+- [x] decorators.ts - Study about the use of decorators inside classes and how it works;
 - [x] functions.ts - Study about the alias of function;
 - [x] generics.ts - Study about the use of generics to create data with multiple datatypes;
 - [x] interfaces.ts - Study about modeling objects with interfaces;
