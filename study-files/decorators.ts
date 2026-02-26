@@ -6,6 +6,8 @@ propertie - (target : any, propertyKey : string) => void
 parameter - (target : any, propertyKey : string, parameterIndex : number) => void
 */
 
+//a decorator run in class definition time, adjusting the class accor the decorators
+
 //a few example is:
 
 function isAdm(adm:boolean){
@@ -46,3 +48,23 @@ class mathCalcs{
 }
 
 console.log(new mathCalcs().sum(1,1));
+
+
+//a simplier logger
+
+function callWork(work:boolean){
+    return (target : any, propertyKey : string, descriptor : PropertyDescriptor) =>{
+        if(work) console.log('work');
+        else console.log('not work');
+    }
+}
+
+
+class Calcs{
+    @callWork(true)
+    doble(num:number):number{
+        return num*2;
+    }
+}
+
+console.log(new Calcs().doble(2));
