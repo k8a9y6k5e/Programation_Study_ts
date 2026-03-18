@@ -3,7 +3,7 @@
   "compilerOptions": {
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "ESNext",
     "target": "esnext",
     "types": ["node"],
     "lib": ["esnext"],
@@ -34,7 +34,8 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "moduleResolution": "bundler"
   },
-  "include": ["study-files"]
+  "include": ["ts-study-files", "node-study-files"]
 }

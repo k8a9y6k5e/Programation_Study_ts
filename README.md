@@ -26,3 +26,7 @@ repository to save the study about typescript
 - [x] utility-types.ts - Study about a few special type to use while programm;
 
 ## node-study-files
+
+- [x] work-with-files.ts - Study about the use of commands to use files inside code, like fs, or cwd;
+- [ ] assertion-errors.ts - Study about the use of the assert command to errors and how it work;
+- [ ] event.ts - Study about the use of events emitter and listeners;
