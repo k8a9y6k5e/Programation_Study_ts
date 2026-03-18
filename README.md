@@ -3,7 +3,7 @@
 repository to save the study about typescript
 ---
 
-## study-files:
+## ts-study-files:
 
 ### modules:
 
@@ -24,3 +24,5 @@ repository to save the study about typescript
 - [x] interfaces.ts - Study about modeling objects with interfaces;
 - [x] narrowing.ts - Study about how guard a data type of a data;
 - [x] utility-types.ts - Study about a few special type to use while programm;
+
+## node-study-files
