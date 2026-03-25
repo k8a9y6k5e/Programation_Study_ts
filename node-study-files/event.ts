@@ -23,3 +23,8 @@ eventLaunch();
 
 // once - run only one time this listener
 // off - desactive/remove one listener
+
+//can be used the process to listen global events
+process.on('message', (data)=>{
+  console.log(JSON.stringify(data));
+})

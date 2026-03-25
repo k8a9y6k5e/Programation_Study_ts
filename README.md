@@ -27,6 +27,7 @@ repository to save the study about typescript
 
 ## node-study-files
 
-- [x] work-with-files.ts - Study about the use of commands to use files inside code, like fs, or cwd;
 - [x] assertion-errors.ts - Study about the use of the assert command to errors and how it work;
 - [x] event.ts - Study about the use of events emitter and listeners;
+- [x] threads.ts - Study about the use of multiple threads inside the node.js;
+- [x] work-with-files.ts - Study about the use of commands to use files inside code, like fs, or cwd;
