@@ -3,6 +3,11 @@
 repository to save the study about typescript
 ---
 
+## automate-tests
+
+- [x] automate-test-jest.spec.ts - Study about automatizate tests using jest;
+- [x] automate-test-jest.ts - Function to test inside spec;
+
 ## ts-study-files:
 
 ### modules:
